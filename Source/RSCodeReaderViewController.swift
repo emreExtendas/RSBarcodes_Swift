@@ -120,10 +120,12 @@ open class RSCodeReaderViewController: UIViewController, AVCaptureMetadataOutput
     }
     
     func setupCamera() {
+        guard let device = self.device else { return }
+        
         var error : NSError?
         let input: AVCaptureDeviceInput!
         do {
-            input = try AVCaptureDeviceInput(device: self.device!)
+            input = try AVCaptureDeviceInput(device: device)
         } catch let error1 as NSError {
             error = error1
             input = nil
@@ -133,19 +135,18 @@ open class RSCodeReaderViewController: UIViewController, AVCaptureMetadataOutput
             return
         }
         
-        if let device = self.device {
-            do {
-                try device.lockForConfiguration()
-                if device.isFocusModeSupported(.continuousAutoFocus) {
-                    device.focusMode = .continuousAutoFocus
-                }
-                if device.isAutoFocusRangeRestrictionSupported {
-                    device.autoFocusRangeRestriction = .near
-                }
-                device.unlockForConfiguration()
-            } catch _ {
+        do {
+            try device.lockForConfiguration()
+            if device.isFocusModeSupported(.continuousAutoFocus) {
+                device.focusMode = .continuousAutoFocus
             }
+            if device.isAutoFocusRangeRestrictionSupported {
+                device.autoFocusRangeRestriction = .near
+            }
+            device.unlockForConfiguration()
+        } catch _ {
         }
+        
         
         // Remove previous added inputs from session
         for input in self.session.inputs {
