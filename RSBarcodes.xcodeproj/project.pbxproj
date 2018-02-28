@@ -7,54 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		566905411DE3EE3B00B7D6D2 /* ContextMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5669053F1DE3EE3B00B7D6D2 /* ContextMaker.h */; };
-		566905421DE3EE3B00B7D6D2 /* ContextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 566905401DE3EE3B00B7D6D2 /* ContextMaker.m */; };
-		D08336CA1A209AAB004EE128 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336B91A209AAB004EE128 /* RSCode39Generator.swift */; };
-		D08336CB1A209AAB004EE128 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BA1A209AAB004EE128 /* RSCode39Mod43Generator.swift */; };
-		D08336CC1A209AAB004EE128 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BB1A209AAB004EE128 /* RSCode93Generator.swift */; };
-		D08336CD1A209AAB004EE128 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BC1A209AAB004EE128 /* RSCode128Generator.swift */; };
-		D08336CE1A209AAB004EE128 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BD1A209AAB004EE128 /* RSCodeGenerator.swift */; };
-		D08336CF1A209AAB004EE128 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */; };
-		D08336D01A209AAB004EE128 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */; };
-		D08336D11A209AAB004EE128 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C01A209AAB004EE128 /* RSCornersLayer.swift */; };
-		D08336D21A209AAB004EE128 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C11A209AAB004EE128 /* RSEANGenerator.swift */; };
-		D08336D31A209AAB004EE128 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C21A209AAB004EE128 /* RSExtendedCode39Generator.swift */; };
-		D08336D41A209AAB004EE128 /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C31A209AAB004EE128 /* RSFocusMarkLayer.swift */; };
-		D08336D51A209AAB004EE128 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C41A209AAB004EE128 /* RSITF14Generator.swift */; };
-		D08336D61A209AAB004EE128 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C51A209AAB004EE128 /* RSITFGenerator.swift */; };
-		D08336D71A209AAB004EE128 /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C61A209AAB004EE128 /* RSUnifiedCodeGenerator.swift */; };
-		D08336D81A209AAB004EE128 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C71A209AAB004EE128 /* RSUPCEGenerator.swift */; };
-		D08336D91A209AAB004EE128 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C81A209AAB004EE128 /* StringExtension.swift */; };
-		D08336DA1A209AAB004EE128 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08336C91A209AAB004EE128 /* UIColorExtension.swift */; };
-		D0E879421BDE13D000D1A577 /* RSCodeDataMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E879411BDE13D000D1A577 /* RSCodeDataMatrixGenerator.swift */; };
-		E71A74281C914B0C0081B389 /* RSUnifiedCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A74271C914B0C0081B389 /* RSUnifiedCodeValidator.swift */; };
+		C33B17EC2046E94B009E9595 /* RSUnifiedCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17D72046E94A009E9595 /* RSUnifiedCodeValidator.swift */; };
+		C33B17ED2046E94B009E9595 /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17D82046E94A009E9595 /* RSUnifiedCodeGenerator.swift */; };
+		C33B17EE2046E94B009E9595 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17D92046E94A009E9595 /* StringExtension.swift */; };
+		C33B17EF2046E94B009E9595 /* ContextMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C33B17DA2046E94A009E9595 /* ContextMaker.h */; };
+		C33B17F02046E94B009E9595 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17DB2046E94A009E9595 /* RSExtendedCode39Generator.swift */; };
+		C33B17F12046E94B009E9595 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17DC2046E94A009E9595 /* RSCode128Generator.swift */; };
+		C33B17F22046E94B009E9595 /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17DD2046E94A009E9595 /* RSFocusMarkLayer.swift */; };
+		C33B17F32046E94B009E9595 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17DE2046E94B009E9595 /* RSITF14Generator.swift */; };
+		C33B17F42046E94B009E9595 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17DF2046E94B009E9595 /* RSCode93Generator.swift */; };
+		C33B17F52046E94B009E9595 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E02046E94B009E9595 /* RSCodeLayer.swift */; };
+		C33B17F62046E94B009E9595 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E12046E94B009E9595 /* UIColorExtension.swift */; };
+		C33B17F72046E94B009E9595 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E22046E94B009E9595 /* RSCornersLayer.swift */; };
+		C33B17F82046E94B009E9595 /* ContextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E32046E94B009E9595 /* ContextMaker.m */; };
+		C33B17F92046E94B009E9595 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E42046E94B009E9595 /* RSCodeReaderViewController.swift */; };
+		C33B17FA2046E94B009E9595 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E52046E94B009E9595 /* RSEANGenerator.swift */; };
+		C33B17FB2046E94B009E9595 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E62046E94B009E9595 /* RSCode39Generator.swift */; };
+		C33B17FC2046E94B009E9595 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E72046E94B009E9595 /* RSCode39Mod43Generator.swift */; };
+		C33B17FD2046E94B009E9595 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E82046E94B009E9595 /* RSITFGenerator.swift */; };
+		C33B17FE2046E94B009E9595 /* RSCodeDataMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17E92046E94B009E9595 /* RSCodeDataMatrixGenerator.swift */; };
+		C33B17FF2046E94B009E9595 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17EA2046E94B009E9595 /* RSUPCEGenerator.swift */; };
+		C33B18002046E94B009E9595 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B17EB2046E94B009E9595 /* RSCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5669053F1DE3EE3B00B7D6D2 /* ContextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextMaker.h; path = Source/ContextMaker.h; sourceTree = SOURCE_ROOT; };
-		566905401DE3EE3B00B7D6D2 /* ContextMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextMaker.m; path = Source/ContextMaker.m; sourceTree = SOURCE_ROOT; };
 		566905431DE3F19100B7D6D2 /* RSBarcodes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RSBarcodes-Bridging-Header.h"; path = "Source/RSBarcodes-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		C33B17D72046E94A009E9595 /* RSUnifiedCodeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUnifiedCodeValidator.swift; sourceTree = "<group>"; };
+		C33B17D82046E94A009E9595 /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		C33B17D92046E94A009E9595 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C33B17DA2046E94A009E9595 /* ContextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMaker.h; sourceTree = "<group>"; };
+		C33B17DB2046E94A009E9595 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
+		C33B17DC2046E94A009E9595 /* RSCode128Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode128Generator.swift; sourceTree = "<group>"; };
+		C33B17DD2046E94A009E9595 /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		C33B17DE2046E94B009E9595 /* RSITF14Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSITF14Generator.swift; sourceTree = "<group>"; };
+		C33B17DF2046E94B009E9595 /* RSCode93Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode93Generator.swift; sourceTree = "<group>"; };
+		C33B17E02046E94B009E9595 /* RSCodeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeLayer.swift; sourceTree = "<group>"; };
+		C33B17E12046E94B009E9595 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C33B17E22046E94B009E9595 /* RSCornersLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCornersLayer.swift; sourceTree = "<group>"; };
+		C33B17E32046E94B009E9595 /* ContextMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMaker.m; sourceTree = "<group>"; };
+		C33B17E42046E94B009E9595 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = "../../../../../Downloads/RSBarcodes_Swift-master-2/Source/RSCodeReaderViewController.swift"; sourceTree = "<group>"; };
+		C33B17E52046E94B009E9595 /* RSEANGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSEANGenerator.swift; sourceTree = "<group>"; };
+		C33B17E62046E94B009E9595 /* RSCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Generator.swift; sourceTree = "<group>"; };
+		C33B17E72046E94B009E9595 /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
+		C33B17E82046E94B009E9595 /* RSITFGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSITFGenerator.swift; sourceTree = "<group>"; };
+		C33B17E92046E94B009E9595 /* RSCodeDataMatrixGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeDataMatrixGenerator.swift; sourceTree = "<group>"; };
+		C33B17EA2046E94B009E9595 /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSUPCEGenerator.swift; sourceTree = "<group>"; };
+		C33B17EB2046E94B009E9595 /* RSCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSCodeGenerator.swift; sourceTree = "<group>"; };
 		D08336371A202E81004EE128 /* RSBarcodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBarcodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08336B81A209AA0004EE128 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
-		D08336B91A209AAB004EE128 /* RSCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCode39Generator.swift; path = Source/RSCode39Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336BA1A209AAB004EE128 /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCode39Mod43Generator.swift; path = Source/RSCode39Mod43Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336BB1A209AAB004EE128 /* RSCode93Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCode93Generator.swift; path = Source/RSCode93Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336BC1A209AAB004EE128 /* RSCode128Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336BD1A209AAB004EE128 /* RSCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = SOURCE_ROOT; };
-		D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = SOURCE_ROOT; };
-		D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = SOURCE_ROOT; };
-		D08336C01A209AAB004EE128 /* RSCornersLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = SOURCE_ROOT; };
-		D08336C11A209AAB004EE128 /* RSEANGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C21A209AAB004EE128 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C31A209AAB004EE128 /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = Source/RSFocusMarkLayer.swift; sourceTree = SOURCE_ROOT; };
-		D08336C41A209AAB004EE128 /* RSITF14Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSITF14Generator.swift; path = Source/RSITF14Generator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C51A209AAB004EE128 /* RSITFGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSITFGenerator.swift; path = Source/RSITFGenerator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C61A209AAB004EE128 /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeGenerator.swift; path = Source/RSUnifiedCodeGenerator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C71A209AAB004EE128 /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSUPCEGenerator.swift; path = Source/RSUPCEGenerator.swift; sourceTree = SOURCE_ROOT; };
-		D08336C81A209AAB004EE128 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = SOURCE_ROOT; };
-		D08336C91A209AAB004EE128 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = SOURCE_ROOT; };
-		D0E879411BDE13D000D1A577 /* RSCodeDataMatrixGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSCodeDataMatrixGenerator.swift; path = Source/RSCodeDataMatrixGenerator.swift; sourceTree = SOURCE_ROOT; };
-		E71A74271C914B0C0081B389 /* RSUnifiedCodeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeValidator.swift; path = Source/RSUnifiedCodeValidator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,27 +88,27 @@
 			isa = PBXGroup;
 			children = (
 				566905431DE3F19100B7D6D2 /* RSBarcodes-Bridging-Header.h */,
-				5669053F1DE3EE3B00B7D6D2 /* ContextMaker.h */,
-				566905401DE3EE3B00B7D6D2 /* ContextMaker.m */,
-				D08336BD1A209AAB004EE128 /* RSCodeGenerator.swift */,
-				E71A74271C914B0C0081B389 /* RSUnifiedCodeValidator.swift */,
-				D08336C61A209AAB004EE128 /* RSUnifiedCodeGenerator.swift */,
-				D08336B91A209AAB004EE128 /* RSCode39Generator.swift */,
-				D08336BA1A209AAB004EE128 /* RSCode39Mod43Generator.swift */,
-				D08336C21A209AAB004EE128 /* RSExtendedCode39Generator.swift */,
-				D08336BB1A209AAB004EE128 /* RSCode93Generator.swift */,
-				D08336BC1A209AAB004EE128 /* RSCode128Generator.swift */,
-				D0E879411BDE13D000D1A577 /* RSCodeDataMatrixGenerator.swift */,
-				D08336C51A209AAB004EE128 /* RSITFGenerator.swift */,
-				D08336C41A209AAB004EE128 /* RSITF14Generator.swift */,
-				D08336C71A209AAB004EE128 /* RSUPCEGenerator.swift */,
-				D08336C11A209AAB004EE128 /* RSEANGenerator.swift */,
-				D08336BF1A209AAB004EE128 /* RSCodeReaderViewController.swift */,
-				D08336BE1A209AAB004EE128 /* RSCodeLayer.swift */,
-				D08336C01A209AAB004EE128 /* RSCornersLayer.swift */,
-				D08336C31A209AAB004EE128 /* RSFocusMarkLayer.swift */,
-				D08336C81A209AAB004EE128 /* StringExtension.swift */,
-				D08336C91A209AAB004EE128 /* UIColorExtension.swift */,
+				C33B17DA2046E94A009E9595 /* ContextMaker.h */,
+				C33B17E32046E94B009E9595 /* ContextMaker.m */,
+				C33B17E62046E94B009E9595 /* RSCode39Generator.swift */,
+				C33B17E72046E94B009E9595 /* RSCode39Mod43Generator.swift */,
+				C33B17DF2046E94B009E9595 /* RSCode93Generator.swift */,
+				C33B17DC2046E94A009E9595 /* RSCode128Generator.swift */,
+				C33B17E92046E94B009E9595 /* RSCodeDataMatrixGenerator.swift */,
+				C33B17EB2046E94B009E9595 /* RSCodeGenerator.swift */,
+				C33B17E02046E94B009E9595 /* RSCodeLayer.swift */,
+				C33B17E42046E94B009E9595 /* RSCodeReaderViewController.swift */,
+				C33B17E22046E94B009E9595 /* RSCornersLayer.swift */,
+				C33B17E52046E94B009E9595 /* RSEANGenerator.swift */,
+				C33B17DB2046E94A009E9595 /* RSExtendedCode39Generator.swift */,
+				C33B17DD2046E94A009E9595 /* RSFocusMarkLayer.swift */,
+				C33B17DE2046E94B009E9595 /* RSITF14Generator.swift */,
+				C33B17E82046E94B009E9595 /* RSITFGenerator.swift */,
+				C33B17D82046E94A009E9595 /* RSUnifiedCodeGenerator.swift */,
+				C33B17D72046E94A009E9595 /* RSUnifiedCodeValidator.swift */,
+				C33B17EA2046E94B009E9595 /* RSUPCEGenerator.swift */,
+				C33B17D92046E94A009E9595 /* StringExtension.swift */,
+				C33B17E12046E94B009E9595 /* UIColorExtension.swift */,
 				D083363A1A202E81004EE128 /* Supporting Files */,
 			);
 			path = RSBarcodes;
@@ -129,7 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566905411DE3EE3B00B7D6D2 /* ContextMaker.h in Headers */,
+				C33B17EF2046E94B009E9595 /* ContextMaker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +166,7 @@
 				TargetAttributes = {
 					D08336361A202E81004EE128 = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -192,26 +192,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08336DA1A209AAB004EE128 /* UIColorExtension.swift in Sources */,
-				D08336CA1A209AAB004EE128 /* RSCode39Generator.swift in Sources */,
-				D0E879421BDE13D000D1A577 /* RSCodeDataMatrixGenerator.swift in Sources */,
-				D08336D61A209AAB004EE128 /* RSITFGenerator.swift in Sources */,
-				D08336D41A209AAB004EE128 /* RSFocusMarkLayer.swift in Sources */,
-				D08336CE1A209AAB004EE128 /* RSCodeGenerator.swift in Sources */,
-				D08336D91A209AAB004EE128 /* StringExtension.swift in Sources */,
-				D08336D71A209AAB004EE128 /* RSUnifiedCodeGenerator.swift in Sources */,
-				D08336CD1A209AAB004EE128 /* RSCode128Generator.swift in Sources */,
-				E71A74281C914B0C0081B389 /* RSUnifiedCodeValidator.swift in Sources */,
-				566905421DE3EE3B00B7D6D2 /* ContextMaker.m in Sources */,
-				D08336CF1A209AAB004EE128 /* RSCodeLayer.swift in Sources */,
-				D08336D51A209AAB004EE128 /* RSITF14Generator.swift in Sources */,
-				D08336D01A209AAB004EE128 /* RSCodeReaderViewController.swift in Sources */,
-				D08336D11A209AAB004EE128 /* RSCornersLayer.swift in Sources */,
-				D08336D81A209AAB004EE128 /* RSUPCEGenerator.swift in Sources */,
-				D08336D31A209AAB004EE128 /* RSExtendedCode39Generator.swift in Sources */,
-				D08336D21A209AAB004EE128 /* RSEANGenerator.swift in Sources */,
-				D08336CC1A209AAB004EE128 /* RSCode93Generator.swift in Sources */,
-				D08336CB1A209AAB004EE128 /* RSCode39Mod43Generator.swift in Sources */,
+				C33B17F12046E94B009E9595 /* RSCode128Generator.swift in Sources */,
+				C33B17FD2046E94B009E9595 /* RSITFGenerator.swift in Sources */,
+				C33B17FE2046E94B009E9595 /* RSCodeDataMatrixGenerator.swift in Sources */,
+				C33B17FC2046E94B009E9595 /* RSCode39Mod43Generator.swift in Sources */,
+				C33B17F92046E94B009E9595 /* RSCodeReaderViewController.swift in Sources */,
+				C33B17ED2046E94B009E9595 /* RSUnifiedCodeGenerator.swift in Sources */,
+				C33B17FB2046E94B009E9595 /* RSCode39Generator.swift in Sources */,
+				C33B17FA2046E94B009E9595 /* RSEANGenerator.swift in Sources */,
+				C33B17F82046E94B009E9595 /* ContextMaker.m in Sources */,
+				C33B17F22046E94B009E9595 /* RSFocusMarkLayer.swift in Sources */,
+				C33B17F72046E94B009E9595 /* RSCornersLayer.swift in Sources */,
+				C33B18002046E94B009E9595 /* RSCodeGenerator.swift in Sources */,
+				C33B17F52046E94B009E9595 /* RSCodeLayer.swift in Sources */,
+				C33B17EC2046E94B009E9595 /* RSUnifiedCodeValidator.swift in Sources */,
+				C33B17F32046E94B009E9595 /* RSITF14Generator.swift in Sources */,
+				C33B17F42046E94B009E9595 /* RSCode93Generator.swift in Sources */,
+				C33B17F62046E94B009E9595 /* UIColorExtension.swift in Sources */,
+				C33B17F02046E94B009E9595 /* RSExtendedCode39Generator.swift in Sources */,
+				C33B17EE2046E94B009E9595 /* StringExtension.swift in Sources */,
+				C33B17FF2046E94B009E9595 /* RSUPCEGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
